@@ -1,29 +1,20 @@
 body {
-    background-image: url(img/blue-3d-modern-background-design_53876-88247.jpg);
+    background-image: url(img/29de46c8c677a172e2e2c88d2d70e45b.png);
   background-attachment: fixed;
     background-size:contain;
-    text-align: center;
+   text-align: center;
 }
-.hot{
-   }
-.contact .step{
-    
-  
+.contact .step{  
     background-size: cover;
     align-items: center;
     width: 100%;
     margin-bottom: 15px;
 }
-
-
-.contact .step .text{
+ .contact .step .text{
     width: calc(100% -50px);
     word-break: break-word;
     color:#1b0a0a;
 }
-
-
-
 .pengenalan{
    font-size: 15px;
     text-transform: capitalize;
@@ -43,7 +34,7 @@ body {
 .ss
 {
     background-image: url(img/images\ \(3\).jfif);
-    
+   background-attachment: fixed;
 }
 
 .skl{
