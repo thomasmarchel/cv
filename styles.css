@@ -1,0 +1,77 @@
+body {
+    background-image: url(img/blue-3d-modern-background-design_53876-88247.jpg);
+  background-attachment: fixed;
+    background-size:contain;
+    text-align: center;
+}
+.hot{
+    background-image: url(img/d731cc305683b75db287f2edbb434773.gif);
+}
+.contact .step{
+    
+  
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.contact .step .text{
+    width: calc(100% -50px);
+    word-break: break-word;
+    color:#1b0a0a;
+}
+
+
+
+.pengenalan{
+   font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color:rgb(0, 0, 0);
+    padding: 15px 30px;
+    height: 240;
+}
+.pro
+{
+    background-image: url(img/d731cc305683b75db287f2edbb434773.gif);
+    background-attachment: fixed;
+    background-color: rgb(48, 48, 43);
+    color: white;
+
+}
+.ss
+{
+    background-image: url(img/images\ \(3\).jfif);
+    
+}
+
+.skl{
+    text-align: center;
+}
+h1 {
+    font-size: 4rem;
+}
+p{
+    font-size: 2rem;
+}
+.warna{
+    background-image: url(img/Autodesk-Innovation-Website-Background-Image-1-silent-GIF.gif);
+background-attachment: fixed;
+}
+@media screen and (max-width: 900px) 
+{ 
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 400px) 
+{
+    img{
+        display: block;
+    }
+}
