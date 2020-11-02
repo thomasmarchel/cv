@@ -1,7 +1,10 @@
 body {
     background-image: url(img/29de46c8c677a172e2e2c88d2d70e45b.png);
+    background-repeat: no-repeat;
+    background-position: center;
   background-attachment: fixed;
-    background-size:contain;
+  background-size: cover;
+   
    text-align: center;
 }
 .contact .step{  
@@ -27,6 +30,10 @@ body {
 {
     background-image: url(img/d731cc305683b75db287f2edbb434773.gif);
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
     background-color: rgb(48, 48, 43);
     color: white;
 
@@ -35,6 +42,9 @@ body {
 {
     background-image: url(img/images\ \(3\).jfif);
    background-attachment: fixed;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .skl{
@@ -49,6 +59,9 @@ p{
 .warna{
     background-image: url(img/Autodesk-Innovation-Website-Background-Image-1-silent-GIF.gif);
 background-attachment: fixed;
+background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 @media screen and (max-width: 900px) 
 { 
