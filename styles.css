@@ -1,80 +1,305 @@
-body {
-    background-image: url(img/29de46c8c677a172e2e2c88d2d70e45b.png);
-    background-repeat: no-repeat;
-    background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-   
-   text-align: center;
-}
-.contact .step{  
-    background-size: cover;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 15px;
-}
- .contact .step .text{
-    width: calc(100% -50px);
-    word-break: break-word;
-    color:#1b0a0a;
-}
-.pengenalan{
-   font-size: 15px;
-    text-transform: capitalize;
-    font-weight: 700;
-    color:rgb(0, 0, 0);
-    padding: 15px 30px;
-    height: 240;
-}
-.pro
-{
-    background-image: url(img/d731cc305683b75db287f2edbb434773.gif);
+body{
+    background-image: url(img/q.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
-    background-color: rgb(48, 48, 43);
-    color: white;
+    color: rgb(246, 247, 241);
 
 }
-.ss
-{
-    background-image: url(img/images\ \(3\).jfif);
-   background-attachment: fixed;
-   background-size: cover;
+
+
+header {
+	height:70px;
+}
+header h1 {
+	display: inline-block;
+	padding:15px 24px;
+	text-transform: uppercase;
+}
+header h1 a {
+	transition: .3s;
+	color:white;
+}
+header h1 a:hover {
+	color: #2e6ca7;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	padding:24px;
+	display: inline-block;
+}
+header ul li a {
+	transition: .3s;
+}
+header ul li a:hover {
+	color: #056ca8;
+}
+a {
+	text-decoration: none;
+}
+
+
+.container {
+	width:90%;
+	margin:0 auto;
+}
+.container::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.mobile-menu {
+	float: right;
+	display: none;
+	
+}
+.mobile-menu:hover {
+	cursor: pointer;
+}
+#check {
+	display: none;
+}
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: -300px;
+	width:300px;
+	background-color: rgba(8, 23, 39, 0.9);
+	transition: .3s;
+	z-index: 9999;
+}
+.sidebar ul li a {
+	color: #fff;
+}
+.sidebar ul li {
+	padding:24px;
+	transition: .3s;
+	transition-property: background-color;
+}
+.sidebar ul li:hover {
+	background-color: #F84744;
+}
+#check:checked ~ .sidebar {
+	left: 0;
+}
+.banner {
+	background-color: #192b3f;
+	
+	padding:150px 0;
+}
+section {
+	padding:50px 0;
+}
+.banner img {
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #ddd;
+	margin-bottom: 10px;
+}
+.banner h2,
+.banner p,
+.banner span {
+	color: #fff;
+}
+.banner h2 {
+	margin-bottom: 10px;
+	
+	
+}
+.port{
+	padding-bottom: 20px;
+	text-align: center;
+	margin:20px;
+	position: relative;
+}
+.banner p {
+	font-size: 18px;
+}
+.banner-left {
+	padding-left:24px;
+}
+section h3 {
+	padding-bottom: 20px;
+	text-align: center;
+	margin:20px;
+	position: relative;
+}
+section h3::before {
+	content:'';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width:120px;
+	height:1px;
+	background-color: #ddd;
+	left: calc(50% - 60px);
+}
+section h3::after {
+	content:'';
+	display: block;
+	position: absolute;
+	bottom: -1px;
+	width:40px;
+	height:4px;
+	background-color: #F84744;
+	left: calc(50% - 20px);
+}
+#educations {
+	text-align: justify;
+	text-indent: 30px;
+	line-height: 25px;
+    margin-bottom: 15px;
+}
+    
+#about p {
+	text-align: justify;
+	text-indent: 30px;
+	margin-bottom: 15px;
+}
+#skills{
+	background-color: grey;
+	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-.skl{
-    text-align: center;
+#contact {
+	background-image: url(img/Pile_of_books-Windows_Photo_Wallpaper_1366x768.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-h1 {
-    font-size: 4rem;
+#skills .bar {
+	height: 30px;
+	background-color: #fff;
+	border:1px solid #ddd;
+	margin: 5px 0 20px 0;
 }
-p{
-    font-size: 2rem;
+.bar .nilai {
+	height:30px;
+	background-color: #263829;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+}
+.html {
+	width:100%;
+}
+.css {
+	width:90%;
+}
+.js {
+	width:80%;
+}
+.ps {
+	width:85%;
+}
+.col-4 {
+	width:25%;
+	box-sizing: border-box;
+	padding:5px;
+	float: left;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.col-4 img {
+	width:100%;
+}
+.col-4 a:hover img {
+	transform: scale(1.2);
+}
+.col-3 {
+	width:33.33%;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	padding:50px 10px;
+}
+.col-3 h4 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+}
+footer {
+	background-color: #333;
+	padding:50px;
+	text-align: center;
+}
+footer small {
+	color: #fff;
+}
+html {
+	scroll-behavior: smooth;
 }
 .warna{
     background-image: url(img/Autodesk-Innovation-Website-Background-Image-1-silent-GIF.gif);
-background-attachment: fixed;
+
 background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-@media screen and (max-width: 900px) 
-{ 
-    h1{
-        font-size: 3rem;
-    }
-    p{
-        font-size: 1rem;
-    }
+.fields{
+	display: flex;
 }
-@media screen and (max-width: 400px) 
-{
-    img{
-        display: block;
-    }
+.field{
+	height: 45px;
+	width: 100%;
+}
+.textarea{
+	height: 80px;
+
+}
+.name{
+margin-left: 10px;
+}
+.email{
+	margin-left: 0px;
+}
+.field input,textarea{
+	height: 100%;
+	width: 50%;
+	border: 1px solid lightgrey;
+	border-radius: 6px;
+	outline: none;
+	padding: 0 15px;
+	font-size: 15px;
+}
+.field input,textarea{
+	padding-top: 10px;
+	resize: none;
+}
+.submit{
+	height: 47px;
+	width: 170px;
+	text-align: center;
+	border: 2px rgb(66, 66, 252);
+	
+	color: cornsilk;
+	font-size: 20px;
+	cursor: pointer;
+	transition: all;
+}
+.button  :hover{
+	color: darkcyan;
+	background: none;
+}
+
+
+@media (max-width: 768px){
+	.mobile-menu {
+		display: block;
+	}
+	header ul {
+		display: none;
+	}
+	.col-4 {
+		width:50%;
+	}
+	.col-3 {
+		width:100%;
+	}
 }
